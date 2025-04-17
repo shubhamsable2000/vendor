@@ -1,0 +1,14 @@
+
+project_id = "wgadxvfvcpimlwyrbbhw"
+
+[functions.send-email]
+verify_jwt = true
+
+[functions.email-webhook]
+verify_jwt = false
+
+[functions.create-negotiation-thread]
+verify_jwt = true
+
+[functions.analyze-subject]
+verify_jwt = true
